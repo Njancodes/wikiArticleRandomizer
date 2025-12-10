@@ -21,6 +21,7 @@ function getRandomSubCategory($category) {
 	const subCategories = []
 	subCategoryList.map((subCategory, i) => {
 		const sc = {};
+		sc.type = 'sub-category'
 		sc.title = subCategory.slice(0, subCategory.indexOf('(')).trim();
 		sc.href = links[i];
 		subCategories.push(sc);
@@ -29,19 +30,33 @@ function getRandomSubCategory($category) {
 	return randomElement(subCategories);
 }
 
+async function randomWikiWalk($scategory) {
+	const flip = randomInt(2);
+	let pageObj, subcategoryObj;
+	subcategoryObj = getRandomSubCategory($scategory);
+	pageObj = getRandomPage($scategory);
 
+	if (flip == 0 && pageObj || !subcategoryObj) {
+		return new Promise((resolve, reject) => {
+			resolve(pageObj);
+		})
+	}
+	const subCategoryRes = await axios.get('https://en.wikipedia.org' + subcategoryObj.href, { headers: { 'User-Agent': 'Express' } });
+	const $subCategoryRes = cheerio.load(subCategoryRes.data);
+
+	return randomWikiWalk($subCategoryRes);
+}
 
 function getRandomPage($category) {
 	const pages = [];
-	const { pageList } = $category('div#mw-pages div.mw-category').extract({ pageList: ['li'] });
-	for (const page of pageList) {
-		if (page.trim()) {
-			const data = {
-				name: page
-			};
-			pages.push(data);
-		}
-	}
+	const { pageList, links } = $category('div#mw-pages div.mw-category').extract({ pageList: ['li'], links: [{ selector: 'li a', value: 'href' }] });
+	pageList.map((page, i) => {
+		const p = {};
+		p.type = 'page'
+		p.title = page.trim();
+		p.href = links[i];
+		pages.push(p);
+	})
 	if (pages.length == 0) return null;
 	return randomElement(pages);
 }
@@ -58,24 +73,12 @@ try {
 		})
 
 		let randomCategory = randomElement(categoryLinks)
-		console.log(randomCategory);
 		const categoryRes = await axios.get('https://en.wikipedia.org' + randomCategory.href, { headers: { 'User-Agent': 'Express' } });
 		const $category = cheerio.load(categoryRes.data);
 
-		console.log(getRandomPage($category))
-		const subCatInfo = getRandomSubCategory($category)
-		const subCategoryRes = await axios.get('https://en.wikipedia.org' + subCatInfo.href, { headers: { 'User-Agent': 'Express' } });
-		const $subCategoryRes = cheerio.load(subCategoryRes.data);
-		console.log(subCatInfo);
 
-		console.log(subCatInfo.title);
-		console.log(getRandomSubCategory($subCategoryRes));
-		// for (const link of categoryLinks) {
-		// 	const res = await axios.get('https://en.wikipedia.org/' + link, { headers: { 'User-Agent': 'Express' } });
-		// 	const $ = cheerio.load(res.data);
-		// 	console.log($('div.mw-category.mw-category-columns').text())
-		// 	await delay(500);
-		// }
+		const resultant = await randomWikiWalk($category)
+		console.log('https://en.wikipedia.org' + resultant.href);
 
 	});
 } catch (error) {
