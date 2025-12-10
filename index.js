@@ -78,6 +78,7 @@ try {
 
 
 		const resultant = await randomWikiWalk($category)
+		console.log(randomCategory);
 		console.log('https://en.wikipedia.org' + resultant.href);
 
 	});
