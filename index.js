@@ -12,31 +12,28 @@ function randomElement(arr) {
 }
 
 function getRandomSubCategory($category) {
-	const {subCategoryList} = $category('div#mw-subcategories div.mw-category').extract({subCategoryList:['li']});
+	const { subCategoryList, links } = $category('div#mw-subcategories div.mw-category').extract({
+		subCategoryList: ['li'], links: [{
+			selector: 'a',
+			value: 'href'
+		}]
+	});
 	const subCategories = []
-	for (const subCategory of subCategoryList) {
-		if (subCategory.trim().match(/\d+/g)) {
-			let data = {
-				title: subCategory.slice(0, subCategory.indexOf('(')).trim(),
-				numberOfCategories: subCategory.trim().match(/\d+/g)[0],
-				numberOfPages: subCategory.trim().match(/\d+/g)[1]
-			};
-			subCategories.push(data);
-		}
-	}
-	console.log(subCategoryList);
+	subCategoryList.map((subCategory, i) => {
+		const sc = {};
+		sc.title = subCategory.slice(0, subCategory.indexOf('(')).trim();
+		sc.href = links[i];
+		subCategories.push(sc);
+	})
 	if (subCategories.length == 0) return null;
 	return randomElement(subCategories);
 }
 
-function getRandomSubCategoryLinks($category){
-
-}
 
 
 function getRandomPage($category) {
 	const pages = [];
-	const {pageList} = $category('div#mw-pages div.mw-category').extract({pageList:['li']});
+	const { pageList } = $category('div#mw-pages div.mw-category').extract({ pageList: ['li'] });
 	for (const page of pageList) {
 		if (page.trim()) {
 			const data = {
@@ -61,14 +58,18 @@ try {
 		})
 
 		let randomCategory = randomElement(categoryLinks)
-
-		const categoryRes = await axios.get('https://en.wikipedia.org/' + randomCategory.href, { headers: { 'User-Agent': 'Express' } });
+		console.log(randomCategory);
+		const categoryRes = await axios.get('https://en.wikipedia.org' + randomCategory.href, { headers: { 'User-Agent': 'Express' } });
 		const $category = cheerio.load(categoryRes.data);
 
-		console.log(randomCategory);
 		console.log(getRandomPage($category))
-		console.log(getRandomSubCategory($category))
+		const subCatInfo = getRandomSubCategory($category)
+		const subCategoryRes = await axios.get('https://en.wikipedia.org' + subCatInfo.href, { headers: { 'User-Agent': 'Express' } });
+		const $subCategoryRes = cheerio.load(subCategoryRes.data);
+		console.log(subCatInfo);
 
+		console.log(subCatInfo.title);
+		console.log(getRandomSubCategory($subCategoryRes));
 		// for (const link of categoryLinks) {
 		// 	const res = await axios.get('https://en.wikipedia.org/' + link, { headers: { 'User-Agent': 'Express' } });
 		// 	const $ = cheerio.load(res.data);
