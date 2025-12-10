@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Supercomputers by architecture",
+    "numberOfCategories": "3",
+    "numberOfPages": "1"
+  },
+  {
+    "title": "Operating systems by architecture",
+    "numberOfCategories": "6",
+    "numberOfPages": "5"
+  },
+  {
+    "title": "Advanced RISC Computing",
+    "numberOfCategories": "19"
+  },
+  {
+    "title": "Capability systems",
+    "numberOfCategories": "26"
+  },
+  {
+    "title": "Central processing unit",
+    "numberOfCategories": "6",
+    "numberOfPages": "79"
+  },
+  {
+    "title": "Classes of computers",
+    "numberOfCategories": "42",
+    "numberOfPages": "92"
+  },
+  {
+    "title": "Computer architects",
+    "numberOfCategories": "6"
+  },
+  {
+    "title": "Computer architecture conferences",
+    "numberOfCategories": "3"
+  },
+  {
+    "title": "Computer arithmetic",
+    "numberOfCategories": "5",
+    "numberOfPages": "135"
+  },
+  {
+    "title": "Computer systems",
+    "numberOfCategories": "16",
+    "numberOfPages": "50"
+  },
+  {
+    "title": "Consistency models",
+    "numberOfCategories": "20"
+  },
+  {
+    "title": "Distributed computing architecture",
+    "numberOfCategories": "18",
+    "numberOfPages": "101"
+  },
+  {
+    "title": "Distributed stream processing",
+    "numberOfCategories": "5"
+  },
+  {
+    "title": "Fault-tolerant computer systems",
+    "numberOfCategories": "6",
+    "numberOfPages": "72"
+  },
+  {
+    "title": "Flynn's taxonomy",
+    "numberOfCategories": "14"
+  },
+  {
+    "title": "Heterogeneous computing",
+    "numberOfCategories": "5",
+    "numberOfPages": "9"
+  },
+  {
+    "title": "High-level language computer architecture",
+    "numberOfCategories": "11"
+  },
+  {
+    "title": "IBM PC compatibles",
+    "numberOfCategories": "15",
+    "numberOfPages": "154"
+  },
+  {
+    "title": "Instruction processing",
+    "numberOfCategories": "6",
+    "numberOfPages": "69"
+  },
+  {
+    "title": "Instruction set architectures",
+    "numberOfCategories": "14",
+    "numberOfPages": "41"
+  },
+  {
+    "title": "Interoperability",
+    "numberOfCategories": "6",
+    "numberOfPages": "63"
+  },
+  {
+    "title": "Interrupts",
+    "numberOfCategories": "35"
+  },
+  {
+    "title": "Microarchitectures",
+    "numberOfCategories": "6",
+    "numberOfPages": "3"
+  },
+  {
+    "title": "MSX",
+    "numberOfCategories": "8",
+    "numberOfPages": "13"
+  },
+  {
+    "title": "Network architecture",
+    "numberOfCategories": "14",
+    "numberOfPages": "157"
+  },
+  {
+    "title": "Network computer",
+    "numberOfCategories": "7"
+  },
+  {
+    "title": "Operating system kernels",
+    "numberOfCategories": "7",
+    "numberOfPages": "35"
+  },
+  {
+    "title": "Operating systems",
+    "numberOfCategories": "40",
+    "numberOfPages": "31"
+  },
+  {
+    "title": "Computer hardware researchers",
+    "numberOfCategories": "10"
+  },
+  {
+    "title": "Computer architecture statements",
+    "numberOfCategories": "29"
+  },
+  {
+    "title": "Computer data storage",
+    "numberOfCategories": "18",
+    "numberOfPages": "49"
+  }
+]

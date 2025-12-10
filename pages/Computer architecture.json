@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Computer architectureA"
+  },
+  {
+    "name": "Abstraction layer"
+  },
+  {
+    "name": "Address space"
+  },
+  {
+    "name": "Addressing mode"
+  },
+  {
+    "name": "Aperture (computer memory)"
+  },
+  {
+    "name": "Approximate computing"
+  },
+  {
+    "name": "Arithmetic logic unit"
+  },
+  {
+    "name": "Autonomous decentralized systemB"
+  },
+  {
+    "name": "Bare machine computing"
+  },
+  {
+    "name": "Berkeley IRAM project"
+  },
+  {
+    "name": "Branch Queue"
+  },
+  {
+    "name": "Bridging model"
+  },
+  {
+    "name": "Byte addressingC"
+  },
+  {
+    "name": "Cache (computing)"
+  },
+  {
+    "name": "Cache control instruction"
+  },
+  {
+    "name": "Cache hierarchy"
+  },
+  {
+    "name": "Cache pollution"
+  },
+  {
+    "name": "Capability Hardware Enhanced RISC Instructions"
+  },
+  {
+    "name": "Cellular architecture"
+  },
+  {
+    "name": "Comparison of CPU microarchitectures"
+  },
+  {
+    "name": "Comparison of instruction set architectures"
+  },
+  {
+    "name": "Computational RAM"
+  },
+  {
+    "name": "Computer architecture simulator"
+  },
+  {
+    "name": "Computer data storageD"
+  },
+  {
+    "name": "Data memory-dependent prefetcher"
+  },
+  {
+    "name": "Dataflow"
+  },
+  {
+    "name": "Dataflow architecture"
+  },
+  {
+    "name": "Directory-based cache coherence"
+  },
+  {
+    "name": "Directory-based coherence"
+  },
+  {
+    "name": "Domain-specific architecture"
+  },
+  {
+    "name": "DOPIPE"
+  },
+  {
+    "name": "Duncan's taxonomyE"
+  },
+  {
+    "name": "Electron E1F"
+  },
+  {
+    "name": "Feng's classification"
+  },
+  {
+    "name": "Frequency scalingH"
+  },
+  {
+    "name": "Hardware architect"
+  },
+  {
+    "name": "Hardware-assisted garbage collection"
+  },
+  {
+    "name": "Harvard architecture"
+  },
+  {
+    "name": "Hybrid-core computingI"
+  },
+  {
+    "name": "IBM System/360 architecture"
+  },
+  {
+    "name": "Instruction prefetch"
+  },
+  {
+    "name": "Instruction windowL"
+  },
+  {
+    "name": "Load–store architecture"
+  },
+  {
+    "name": "Load–store unitM"
+  },
+  {
+    "name": "The Machine (computer architecture)"
+  },
+  {
+    "name": "Machine Check Architecture"
+  },
+  {
+    "name": "Manycore processor"
+  },
+  {
+    "name": "MCDRAM"
+  },
+  {
+    "name": "Memory dependence prediction"
+  },
+  {
+    "name": "Memory disambiguation"
+  },
+  {
+    "name": "Memory hierarchy"
+  },
+  {
+    "name": "Memory management"
+  },
+  {
+    "name": "Memory ordering"
+  },
+  {
+    "name": "Microarchitecture simulation"
+  },
+  {
+    "name": "Modified Harvard architecture"
+  },
+  {
+    "name": "Multi-core processorN"
+  },
+  {
+    "name": "Network Centric Product Support"
+  },
+  {
+    "name": "NonStop (server computers)"
+  },
+  {
+    "name": "Northbound interfaceO"
+  },
+  {
+    "name": "Open architectureP"
+  },
+  {
+    "name": "Popek and Goldberg virtualization requirements"
+  },
+  {
+    "name": "Processor registerR"
+  },
+  {
+    "name": "Random-access memory"
+  },
+  {
+    "name": "Reference model"
+  },
+  {
+    "name": "Register file"
+  },
+  {
+    "name": "Register renaming"
+  },
+  {
+    "name": "Register–memory architecture"
+  },
+  {
+    "name": "Resilience (network)"
+  },
+  {
+    "name": "ResponsivenessS"
+  },
+  {
+    "name": "Scalability"
+  },
+  {
+    "name": "Scale cube"
+  },
+  {
+    "name": "Shared memory"
+  },
+  {
+    "name": "Simple-As-Possible computer"
+  },
+  {
+    "name": "Simultaneous multithreading"
+  },
+  {
+    "name": "Single instruction, multiple threads"
+  },
+  {
+    "name": "Single-core"
+  },
+  {
+    "name": "Slot (computer architecture)"
+  },
+  {
+    "name": "Spatial architecture"
+  },
+  {
+    "name": "SpiNNaker"
+  },
+  {
+    "name": "Stream processing"
+  },
+  {
+    "name": "Superscalar processor"
+  },
+  {
+    "name": "Synchronous Data FlowT"
+  },
+  {
+    "name": "Tagged architecture"
+  },
+  {
+    "name": "Temporal multithreading"
+  },
+  {
+    "name": "Transport triggered architectureU"
+  },
+  {
+    "name": "Unix architectureV"
+  },
+  {
+    "name": "Vectored interrupt"
+  },
+  {
+    "name": "Vkernel"
+  },
+  {
+    "name": "Von Neumann architectureW"
+  },
+  {
+    "name": "Whitewater Interactive System Development with Object ModelsX"
+  },
+  {
+    "name": "Xputer"
+  }
+]

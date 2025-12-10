@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Application-specific integrated circuits",
+    "numberOfCategories": "6",
+    "numberOfPages": "23"
+  },
+  {
+    "title": "Computer architecture",
+    "numberOfCategories": "31",
+    "numberOfPages": "91"
+  },
+  {
+    "title": "Computer engineering journals",
+    "numberOfCategories": "1"
+  },
+  {
+    "title": "Computer hardware",
+    "numberOfCategories": "20",
+    "numberOfPages": "39"
+  },
+  {
+    "title": "Computer networking",
+    "numberOfCategories": "17",
+    "numberOfPages": "239"
+  },
+  {
+    "title": "Computer networks engineering",
+    "numberOfCategories": "14",
+    "numberOfPages": "33"
+  },
+  {
+    "title": "Computer systems",
+    "numberOfCategories": "16",
+    "numberOfPages": "50"
+  },
+  {
+    "title": "Cybersecurity engineering",
+    "numberOfCategories": "19",
+    "numberOfPages": "51"
+  },
+  {
+    "title": "Electronic engineering",
+    "numberOfCategories": "29",
+    "numberOfPages": "140"
+  },
+  {
+    "title": "Embedded systems",
+    "numberOfCategories": "24",
+    "numberOfPages": "134"
+  },
+  {
+    "title": "Gate arrays",
+    "numberOfCategories": "1",
+    "numberOfPages": "34"
+  },
+  {
+    "title": "Integrated circuits",
+    "numberOfCategories": "20",
+    "numberOfPages": "174"
+  },
+  {
+    "title": "Robotics engineering",
+    "numberOfCategories": "9",
+    "numberOfPages": "42"
+  },
+  {
+    "title": "Signal processing",
+    "numberOfCategories": "19",
+    "numberOfPages": "299"
+  },
+  {
+    "title": "Software engineering",
+    "numberOfCategories": "23",
+    "numberOfPages": "59"
+  },
+  {
+    "title": "Computer engineering stubs",
+    "numberOfCategories": "1",
+    "numberOfPages": "57"
+  }
+]

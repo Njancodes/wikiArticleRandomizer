@@ -1,0 +1,169 @@
+[
+  {
+    "title": "Computer programmers",
+    "numberOfCategories": "10",
+    "numberOfPages": "74"
+  },
+  {
+    "title": "Algorithms",
+    "numberOfCategories": "58",
+    "numberOfPages": "137"
+  },
+  {
+    "title": "Anti-patterns",
+    "numberOfCategories": "33"
+  },
+  {
+    "title": "Computer programming books",
+    "numberOfCategories": "3",
+    "numberOfPages": "40"
+  },
+  {
+    "title": "Programming contests",
+    "numberOfCategories": "4",
+    "numberOfPages": "66"
+  },
+  {
+    "title": "Code refactoring",
+    "numberOfCategories": "7"
+  },
+  {
+    "title": "Concurrent computing",
+    "numberOfCategories": "16",
+    "numberOfPages": "45"
+  },
+  {
+    "title": "Programming constructs",
+    "numberOfCategories": "6",
+    "numberOfPages": "67"
+  },
+  {
+    "title": "Program derivation",
+    "numberOfCategories": "2"
+  },
+  {
+    "title": "Data structures",
+    "numberOfCategories": "19",
+    "numberOfPages": "22"
+  },
+  {
+    "title": "Debugging",
+    "numberOfCategories": "4",
+    "numberOfPages": "63"
+  },
+  {
+    "title": "DLL injection",
+    "numberOfCategories": "2"
+  },
+  {
+    "title": "Computer programming folklore",
+    "numberOfCategories": "29"
+  },
+  {
+    "title": "Programming games",
+    "numberOfCategories": "41"
+  },
+  {
+    "title": "Programming idioms",
+    "numberOfCategories": "2",
+    "numberOfPages": "13"
+  },
+  {
+    "title": "Programming interfaces",
+    "numberOfCategories": "4"
+  },
+  {
+    "title": "Programming language syntax",
+    "numberOfCategories": "1",
+    "numberOfPages": "22"
+  },
+  {
+    "title": "Programming language topics",
+    "numberOfCategories": "15",
+    "numberOfPages": "56"
+  },
+  {
+    "title": "Programming languages",
+    "numberOfCategories": "59",
+    "numberOfPages": "178"
+  },
+  {
+    "title": "Computer libraries",
+    "numberOfCategories": "37",
+    "numberOfPages": "89"
+  },
+  {
+    "title": "Live coding",
+    "numberOfCategories": "1",
+    "numberOfPages": "25"
+  },
+  {
+    "title": "Method",
+    "numberOfCategories": "30"
+  },
+  {
+    "title": "Programming paradigms",
+    "numberOfCategories": "14",
+    "numberOfPages": "107"
+  },
+  {
+    "title": "Programming principles",
+    "numberOfCategories": "42"
+  },
+  {
+    "title": "Software optimization",
+    "numberOfCategories": "5",
+    "numberOfPages": "60"
+  },
+  {
+    "title": "Quantum programming",
+    "numberOfCategories": "16"
+  },
+  {
+    "title": "Self-hosting software",
+    "numberOfCategories": "12"
+  },
+  {
+    "title": "Software design",
+    "numberOfCategories": "6",
+    "numberOfPages": "77"
+  },
+  {
+    "title": "Software design patterns",
+    "numberOfCategories": "3",
+    "numberOfPages": "146"
+  },
+  {
+    "title": "Source code",
+    "numberOfCategories": "7",
+    "numberOfPages": "71"
+  },
+  {
+    "title": "Source code generation",
+    "numberOfCategories": "1",
+    "numberOfPages": "5"
+  },
+  {
+    "title": "Streaming algorithms",
+    "numberOfCategories": "6"
+  },
+  {
+    "title": "Programming tools",
+    "numberOfCategories": "40",
+    "numberOfPages": "126"
+  },
+  {
+    "title": "Visual programming",
+    "numberOfCategories": "1",
+    "numberOfPages": "1"
+  },
+  {
+    "title": "Wikis about programming",
+    "numberOfCategories": "2"
+  },
+  {
+    "title": "Computer programming stubs",
+    "numberOfCategories": "1",
+    "numberOfPages": "222"
+  }
+]

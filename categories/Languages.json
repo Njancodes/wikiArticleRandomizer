@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Lists of computer languages",
+    "numberOfCategories": "2",
+    "numberOfPages": "6"
+  },
+  {
+    "title": "Architecture description language",
+    "numberOfCategories": "11"
+  },
+  {
+    "title": "Data modeling languages",
+    "numberOfCategories": "3",
+    "numberOfPages": "63"
+  },
+  {
+    "title": "Graph description languages",
+    "numberOfCategories": "11"
+  },
+  {
+    "title": "Markup languages",
+    "numberOfCategories": "25",
+    "numberOfPages": "172"
+  },
+  {
+    "title": "Programming languages",
+    "numberOfCategories": "59",
+    "numberOfPages": "178"
+  },
+  {
+    "title": "Specification languages",
+    "numberOfCategories": "8",
+    "numberOfPages": "46"
+  },
+  {
+    "title": "Stylesheet languages",
+    "numberOfCategories": "1",
+    "numberOfPages": "13"
+  },
+  {
+    "title": "Test items in computer languages",
+    "numberOfCategories": "4"
+  },
+  {
+    "title": "Transformation languages",
+    "numberOfCategories": "1",
+    "numberOfPages": "8"
+  },
+  {
+    "title": "Workflow languages",
+    "numberOfCategories": "10"
+  }
+]

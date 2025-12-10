@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Software by platform",
+    "numberOfCategories": "13"
+  },
+  {
+    "title": "Software development by platforms",
+    "numberOfCategories": "1",
+    "numberOfPages": "2"
+  },
+  {
+    "title": ".NET implementations",
+    "numberOfCategories": "2",
+    "numberOfPages": "5"
+  },
+  {
+    "title": "Video game platforms",
+    "numberOfCategories": "7",
+    "numberOfPages": "14"
+  },
+  {
+    "title": "AmigaOS",
+    "numberOfCategories": "4",
+    "numberOfPages": "46"
+  },
+  {
+    "title": "BeOS",
+    "numberOfCategories": "2",
+    "numberOfPages": "11"
+  },
+  {
+    "title": "Cloud platforms",
+    "numberOfCategories": "8",
+    "numberOfPages": "118"
+  },
+  {
+    "title": "Concurrent computing",
+    "numberOfCategories": "16",
+    "numberOfPages": "45"
+  },
+  {
+    "title": "Inferno",
+    "numberOfCategories": "2",
+    "numberOfPages": "9"
+  },
+  {
+    "title": "Java platform",
+    "numberOfCategories": "10",
+    "numberOfPages": "140"
+  },
+  {
+    "title": "KDE Frameworks",
+    "numberOfCategories": "18"
+  },
+  {
+    "title": "KDE Platform",
+    "numberOfCategories": "15"
+  },
+  {
+    "title": "Macintosh platform",
+    "numberOfCategories": "11",
+    "numberOfPages": "22"
+  },
+  {
+    "title": "Microsoft Windows",
+    "numberOfCategories": "20",
+    "numberOfPages": "73"
+  },
+  {
+    "title": "MSX-DOS",
+    "numberOfCategories": "1",
+    "numberOfPages": "6"
+  },
+  {
+    "title": "OpenVMS",
+    "numberOfCategories": "1",
+    "numberOfPages": "16"
+  },
+  {
+    "title": "OS/2",
+    "numberOfCategories": "2",
+    "numberOfPages": "6"
+  },
+  {
+    "title": "Plan 9 from Bell Labs",
+    "numberOfCategories": "9",
+    "numberOfPages": "3"
+  },
+  {
+    "title": "Serverless computing",
+    "numberOfCategories": "9"
+  },
+  {
+    "title": "TRON project",
+    "numberOfCategories": "9"
+  }
+]

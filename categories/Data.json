@@ -1,0 +1,111 @@
+[
+  {
+    "title": "Cache",
+    "numberOfCategories": "4",
+    "numberOfPages": "48"
+  },
+  {
+    "title": "Character encoding",
+    "numberOfCategories": "12",
+    "numberOfPages": "94"
+  },
+  {
+    "title": "Data compression",
+    "numberOfCategories": "9",
+    "numberOfPages": "192"
+  },
+  {
+    "title": "Data differencing",
+    "numberOfCategories": "1",
+    "numberOfPages": "7"
+  },
+  {
+    "title": "Data recovery",
+    "numberOfCategories": "2",
+    "numberOfPages": "15"
+  },
+  {
+    "title": "Data retention",
+    "numberOfCategories": "3"
+  },
+  {
+    "title": "Databases",
+    "numberOfCategories": "27",
+    "numberOfPages": "135"
+  },
+  {
+    "title": "Digital preservation",
+    "numberOfCategories": "8",
+    "numberOfPages": "76"
+  },
+  {
+    "title": "File conversion software",
+    "numberOfCategories": "2",
+    "numberOfPages": "6"
+  },
+  {
+    "title": "Computer files",
+    "numberOfCategories": "9",
+    "numberOfPages": "31"
+  },
+  {
+    "title": "Data formats",
+    "numberOfCategories": "3",
+    "numberOfPages": "2"
+  },
+  {
+    "title": "Input/output",
+    "numberOfCategories": "11",
+    "numberOfPages": "44"
+  },
+  {
+    "title": "Data interchange standards",
+    "numberOfCategories": "1",
+    "numberOfPages": "25"
+  },
+  {
+    "title": "Computer memory",
+    "numberOfCategories": "13",
+    "numberOfPages": "197"
+  },
+  {
+    "title": "Data processing",
+    "numberOfCategories": "6",
+    "numberOfPages": "49"
+  },
+  {
+    "title": "Data security",
+    "numberOfCategories": "8",
+    "numberOfPages": "137"
+  },
+  {
+    "title": "Data serialization formats",
+    "numberOfCategories": "5",
+    "numberOfPages": "60"
+  },
+  {
+    "title": "Statistical data coding",
+    "numberOfCategories": "3",
+    "numberOfPages": "18"
+  },
+  {
+    "title": "Computer data storage",
+    "numberOfCategories": "18",
+    "numberOfPages": "49"
+  },
+  {
+    "title": "Data structures",
+    "numberOfCategories": "19",
+    "numberOfPages": "22"
+  },
+  {
+    "title": "Data transmission",
+    "numberOfCategories": "9",
+    "numberOfPages": "183"
+  },
+  {
+    "title": "Data types",
+    "numberOfCategories": "5",
+    "numberOfPages": "106"
+  }
+]

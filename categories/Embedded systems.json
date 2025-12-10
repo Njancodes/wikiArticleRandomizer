@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Ada",
+    "numberOfCategories": "1",
+    "numberOfPages": "35"
+  },
+  {
+    "title": "Automotive software",
+    "numberOfCategories": "3",
+    "numberOfPages": "21"
+  },
+  {
+    "title": "Avionics",
+    "numberOfCategories": "9",
+    "numberOfPages": "160"
+  },
+  {
+    "title": "Avionics computers",
+    "numberOfCategories": "2",
+    "numberOfPages": "19"
+  },
+  {
+    "title": "Digital cameras",
+    "numberOfCategories": "11",
+    "numberOfPages": "36"
+  },
+  {
+    "title": "Embedded Linux",
+    "numberOfCategories": "4",
+    "numberOfPages": "82"
+  },
+  {
+    "title": "Embedded operating systems",
+    "numberOfCategories": "12",
+    "numberOfPages": "122"
+  },
+  {
+    "title": "Engine control systems",
+    "numberOfCategories": "10"
+  },
+  {
+    "title": "Firmware",
+    "numberOfCategories": "9",
+    "numberOfPages": "35"
+  },
+  {
+    "title": "Graphing calculators",
+    "numberOfCategories": "1",
+    "numberOfPages": "42"
+  },
+  {
+    "title": "Information appliances",
+    "numberOfCategories": "7",
+    "numberOfPages": "32"
+  },
+  {
+    "title": "Interactive kiosks",
+    "numberOfCategories": "4"
+  },
+  {
+    "title": "Microcontrollers",
+    "numberOfCategories": "12",
+    "numberOfPages": "71"
+  },
+  {
+    "title": "Embedded microprocessors",
+    "numberOfCategories": "1",
+    "numberOfPages": "42"
+  },
+  {
+    "title": "Onboard computers",
+    "numberOfCategories": "10"
+  },
+  {
+    "title": "Real-time computing",
+    "numberOfCategories": "4",
+    "numberOfPages": "41"
+  },
+  {
+    "title": "Robotics",
+    "numberOfCategories": "35",
+    "numberOfPages": "104"
+  },
+  {
+    "title": "Robots",
+    "numberOfCategories": "37",
+    "numberOfPages": "29"
+  },
+  {
+    "title": "Single-board computers",
+    "numberOfCategories": "7",
+    "numberOfPages": "54"
+  },
+  {
+    "title": "Smart devices",
+    "numberOfCategories": "9",
+    "numberOfPages": "43"
+  },
+  {
+    "title": "Software related to embedded Linux",
+    "numberOfCategories": "14"
+  },
+  {
+    "title": "Synchronous programming languages",
+    "numberOfCategories": "9"
+  },
+  {
+    "title": "System on a chip",
+    "numberOfCategories": "3",
+    "numberOfPages": "40"
+  },
+  {
+    "title": "Windows Embedded Automotive devices",
+    "numberOfCategories": "4"
+  }
+]
