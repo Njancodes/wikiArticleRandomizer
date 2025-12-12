@@ -66,10 +66,21 @@ try {
 		const data = res.data;
 		const $ = cheerio.load(data);
 
-		const $ul = $('.contentsPage :nth-child(29) :nth-child(6) ul');
+		const $ul = $(`.contentsPage :nth-child(29) :nth-child(6) ul`);
 
-		$ul.find('a').map((_, el) => {
-			categoryLinks.push({ href: $(el).attr('href'), title: $(el).text() });
+		const $categories = $(`.contentsPage #Technology_and_applied_sciences `).next().children('.hlist')
+
+		$categories.each((_, el) => {
+			const firstCategory = $(el).children('ul').children('')
+			if ($(firstCategory).find('i').html()) {
+				return;
+			}
+			const categoryName = $(firstCategory).children(':first').text().toLowerCase();
+			if (categoryName == process.argv[2]) {
+				$(firstCategory).parent().children().find('a').map((_, el) => {
+					categoryLinks.push({ href: $(el).attr('href'), title: $(el).text() });
+				})
+			}
 		})
 
 		let randomCategory = randomElement(categoryLinks)
